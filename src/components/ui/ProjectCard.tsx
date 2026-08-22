@@ -78,14 +78,14 @@ export function ProjectCard({
           </span>
         </div>
 
-        <div className="relative aspect-video w-full bg-bg-elevated">
+        <div className="relative aspect-video w-full bg-bg-elevated p-3 sm:p-5">
           {image ? (
             <Image
               src={image.src}
               alt={image.alt}
               fill
               sizes="(min-width: 1024px) 50vw, 100vw"
-              className="object-cover object-top"
+              className="object-contain object-center transition-transform duration-500 hover:scale-[1.02]"
             />
           ) : (
             <div className="flex h-full w-full flex-col items-center justify-center gap-2 border-2 border-dashed border-border-subtle/60">

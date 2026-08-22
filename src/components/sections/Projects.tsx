@@ -59,6 +59,10 @@ export function Projects() {
               "Vite",
               "Tailwind CSS",
             ]}
+            image={{
+              src: "/images/login.png",
+              alt: "Tela de login do Moto Stock",
+            }}
             repoUrl="https://github.com/UxieGu1/moto-stock"
           />
 
@@ -84,6 +88,10 @@ export function Projects() {
               "Clean Architecture",
               "SOLID",
             ]}
+            image={{
+              src: "/images/GopportunitiesHeader.svg",
+              alt: "Cabeçalho do Gopportunities",
+            }}
             repoUrl="https://github.com/UxieGu1/gopportunities-api"
           />
 
@@ -104,6 +112,10 @@ export function Projects() {
               "Arquitetura em Camadas",
               "CNAB",
             ]}
+            image={{
+              src: "/images/image.png",
+              alt: "Imagem dos desafios backend",
+            }}
             repoUrl="https://github.com/UxieGu1"
           />
         </div>
